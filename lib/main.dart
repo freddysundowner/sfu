@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final String _uuid = Uuid().v4();
 
   initSFU() async {
-    _signal = await getUrl();
+    final _signal = await getUrl();
     _client = await ion.Client.create(sid: "test", uid: _uuid, signal: _signal);
     if (isPub == false) {
       _client?.ontrack = (track, ion.RemoteStream remoteStream) async {
