@@ -53,14 +53,15 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   getUrl() {
-    if (kIsWeb) {
-      return ion.GRPCWebSignal('http://localhost:50051');
-    } else {
-      setState(() {
-        isPub = true;
-      });
-      return ion.GRPCWebSignal("http://192.168.0.103:500551");
-    }
+    // if (kIsWeb) {
+    //   return ion.GRPCWebSignal('http://localhost:50051');
+    // } else {
+    //   setState(() {
+    //     isPub = true;
+    //   });
+    //   return ion.GRPCWebSignal("http://192.168.0.103:500551");
+    // }
+    return ion.GRPCWebSignal("http://192.168.0.103:50051");
   }
 
   ion.Signal? _signal;

@@ -81,6 +81,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.5"
+  dart_webrtc:
+    dependency: transitive
+    description:
+      name: dart_webrtc
+      sha256: a34e59ac1559cac954e48c9fe156164992163d2f4b7e75d5b0e927ee2f1e4922
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.16"
   events2:
     dependency: transitive
     description:
@@ -129,10 +137,9 @@ packages:
   flutter_ion:
     dependency: "direct main"
     description:
-      name: flutter_ion
-      sha256: "4f735b4cf1057d634846cdbe5305299fe77d994c995d089d434ea10ca6bd89e8"
-      url: "https://pub.dev"
-    source: hosted
+      path: ion-sdk-flutter-master
+      relative: true
+    source: path
     version: "1.0.0"
   flutter_lints:
     dependency: "direct dev"
@@ -151,10 +158,10 @@ packages:
     dependency: transitive
     description:
       name: flutter_webrtc
-      sha256: c829778dcd75ceb4a4577e265436928531ea9b929bce2cb6e661e5fa0bf0ed9c
+      sha256: d68be9b5dda75ff3a29d11241b4396f375a94690b671315b3a65f6b221e460c4
       url: "https://pub.dev"
     source: hosted
-    version: "0.7.1"
+    version: "0.9.26"
   googleapis_auth:
     dependency: transitive
     description:
@@ -299,6 +306,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.0"
+  platform_detect:
+    dependency: transitive
+    description:
+      name: platform_detect
+      sha256: "14afcb6ffcd93745e39a288db53d1d6522ea25d71f7993c13a367a86c437b54d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.7"
   plugin_platform_interface:
     dependency: transitive
     description:
@@ -331,6 +346,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
+  pub_semver:
+    dependency: transitive
+    description:
+      name: pub_semver
+      sha256: "307de764d305289ff24ad257ad5c5793ce56d04947599ad68b3baa124105fc17"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.3"
   sdp_transform:
     dependency: transitive
     description:
@@ -424,6 +447,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.4.0"
+  webrtc_interface:
+    dependency: transitive
+    description:
+      name: webrtc_interface
+      sha256: "0ac4693f921c81005edefd2f43b9fe84b0ed54481474fe1ee16b789b0c84a77c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.13"
   win32:
     dependency: transitive
     description:
@@ -441,5 +472,5 @@ packages:
     source: hosted
     version: "1.0.0"
 sdks:
-  dart: ">=2.19.0 <4.0.0"
+  dart: ">=2.19.0 <3.0.0"
   flutter: ">=3.3.0"

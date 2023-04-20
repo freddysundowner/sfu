@@ -28,5 +28,17 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+
+	<key>NSAppleMusicUsageDescription</key>
+    <string>Enabling Audio Conversation when app is in backgroound</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Camera used for upload product photos</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Allow location to show address of the shop in the map</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Allow Microphone Permission to be able to hold audio conversational rooms</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Photo Library used for upload product photos</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
 </dict>
 </plist>
